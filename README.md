@@ -4,7 +4,7 @@
 
 A community-curated collection of terminal user interface (TUI) applications. A TUI runs in your terminal and offers some level of interactivity. Commands listed here should not wrap other interactive commands (e.g. `fzf`) and should be actively maintained.
 
-Plenty of the projects listed here are maintained by people with no affiliation to this list. Use them at your own discretion. Found a cool tool worth sharing? [Open a pull request](https://github.com/musichen/justtuit/pulls).
+Plenty of the projects listed here are maintained by people with no affiliation to this list. Use them at your own discretion. Found a cool tool worth sharing? [Open a pull request](https://github.com/handyutils/justtuit/pulls).
 
 ## Use it
 
@@ -23,6 +23,14 @@ npm install -g justtuit
 - [npm package](https://www.npmjs.com/package/justtuit) · [@webboxes/justtuit alias](https://www.npmjs.com/package/@webboxes/justtuit) · [TUI app source](./app) · [website source](./site)
 
 ---
+
+## Contributing
+
+Found a cool tool worth sharing? Open a pull request against this repo (handyutils/justtuit):
+
+1. Add one tool per pull request, in the matching category from the Table of Contents.
+2. Follow the neighbouring entry format and keep the description to one factual line.
+3. Only suggest tools that run interactively in a terminal, do not wrap other interactive commands, and are actively maintained.
 
 ## Table of Contents
 
