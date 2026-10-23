@@ -32,6 +32,18 @@ Found a cool tool worth sharing? Open a pull request against this repo (handyuti
 2. Follow the neighbouring entry format and keep the description to one factual line.
 3. Only suggest tools that run interactively in a terminal, do not wrap other interactive commands, and are actively maintained.
 
+## Development
+
+The launcher app lives in [`app/`](app/) and the website source in [`site/`](site/). For the app (Bun):
+
+```bash
+cd app
+bun run dev
+bun run typecheck
+```
+
+`bun run dev` runs `src/index.tsx`, `bun run typecheck` runs `tsc --noEmit`, and `bun scripts/parse-list.ts` regenerates the catalog data from this README.
+
 ## Table of Contents
 
 - [Dashboards](#dashboards)
